@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Josefin+Sans&family=Mulish&family=Poppins:wght@100;300;400;600;700&family=Roboto&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  
+<!-------header start--------->
+
+  <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="image/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+
+  </section>
+
+  <!------------Abut us content----------->
+
+  <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+            <h1>We Are The World's Largest <br>University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, accusamus dignissimos sequi quas hic porro reiciendis ducimus nam consequatur asperiores accusantium maxime molestiae repellat, modi, velit placeat odit numquam ut ipsum eius libero quo illo! Aliquid, et amet repellendus cumque ullam illum in voluptatibus velit rem iusto sapiente cupiditate qui.</p>
+            <a href="" class="hero-btn red-btn">EXPLOTE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="image/about.jpg" alt="about">
+        </div>
+      </div>
+  </section>
+
+
+
+
+    <!-------footer--------->
+
+     <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo nulla nisi nihil laborum <br>necessitatibus perferendis quaerat odit modi aperiam eius.</p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa-solid fa-heart"></i> by Mafi Hasan</p>
+     </section>
+
+
+
+
+
+
+
+
+<!---------JavaScript for menu--------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+<!--javascript for menu-->
+
+</body>
+</html>
